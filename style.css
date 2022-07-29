@@ -9,7 +9,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr .2fr 4fr;
-    border:1px black outset ;
+    
     color: white;
 }
 .header{
@@ -114,7 +114,8 @@ grid-template-columns: 1fr 3fr;
     grid-column: 2/3;
     display: grid;
     grid-template-rows: 1fr 5fr 1fr 2fr;
-    
+    border-radius: 15px;
+    background-color:  #404040;
     
 }
 .rb1{
